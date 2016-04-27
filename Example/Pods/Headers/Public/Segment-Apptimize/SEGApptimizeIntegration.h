@@ -1,0 +1,1 @@
+../../../../../Segment-Apptimize/Classes/SEGApptimizeIntegration.h

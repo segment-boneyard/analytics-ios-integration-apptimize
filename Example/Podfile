@@ -1,0 +1,11 @@
+target 'Segment-Apptimize_Example', :exclusive => true do
+  pod 'Segment-Apptimize', :path => '../'
+end
+
+target 'Segment-Apptimize_Tests', :exclusive => true do
+  pod 'Segment-Apptimize', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'OCMockito'
+end
