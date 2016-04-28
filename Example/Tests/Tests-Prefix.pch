@@ -8,5 +8,7 @@
   #import <Analytics/SEGAnalytics.h>
   #import <Segment-Apptimize/SEGApptimizeIntegrationFactory.h>
   #import <Segment-Apptimize/SEGApptimizeIntegration.h>
+  #import <Apptimize/Apptimize.h>
+  #import <Apptimize/Apptimize+Segment.h>
 
 #endif

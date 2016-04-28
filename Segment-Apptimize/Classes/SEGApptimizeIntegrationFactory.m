@@ -25,7 +25,7 @@
 
 - (id<SEGIntegration>)createWithSettings:(NSDictionary *)settings forAnalytics:(SEGAnalytics *)analytics
 {
-    return [[SEGApptimizeIntegration alloc] initWithSettings:settings];
+    return [[SEGApptimizeIntegration alloc] initWithSettings:settings analytics:analytics apptimize:[Apptimize class]];
 }
 
 - (NSString *)key
