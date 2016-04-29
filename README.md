@@ -1,4 +1,4 @@
-# Analytics
+# Segment-Apptimize
 
 [![CI Status](http://img.shields.io/travis/segment-integrations/analytics-ios-integration-apptimize.svg?style=flat)](https://travis-ci.org/segment-integrations/analytics-ios-integration-apptimize)
 [![Version](https://img.shields.io/cocoapods/v/Segment-Apptimize.svg?style=flat)](http://cocoapods.org/pods/Segment-Apptimize)
