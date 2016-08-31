@@ -22,7 +22,7 @@
   "source_files": "Segment-Apptimize/Classes/**/*",
   "dependencies": {
     "Analytics": [
-      "~> 3.0.7"
+      "~> 3.0"
     ],
     "Apptimize": [
       "~> 2.16"

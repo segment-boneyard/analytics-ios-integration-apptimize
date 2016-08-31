@@ -1,11 +1,11 @@
-target 'Segment-Apptimize_Example', :exclusive => true do
-  pod 'Segment-Apptimize', :path => '../'
-end
-
-target 'Segment-Apptimize_Tests', :exclusive => true do
+target 'Segment-Apptimize_Example' do
   pod 'Segment-Apptimize', :path => '../'
 
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'OCMockito'
+  target 'Segment-Apptimize_Tests' do
+    inherit! :search_paths
+
+    pod 'OCMockito'
+    pod 'Specta'
+    pod 'Expecta'
+  end
 end

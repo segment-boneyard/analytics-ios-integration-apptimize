@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Segment-Apptimize/Classes/**/*'
 
-  s.dependency 'Analytics', '~> 3.0.7'
+  s.dependency 'Analytics', '~> 3.0'
   s.dependency 'Apptimize', '~> 2.16'
 end
