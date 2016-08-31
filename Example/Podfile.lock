@@ -5,7 +5,7 @@ PODS:
   - OCHamcrest (5.2.0)
   - OCMockito (3.0.1):
     - OCHamcrest (~> 5.1)
-  - Segment-Apptimize (0.1.0):
+  - Segment-Apptimize (0.2.0):
     - Analytics (~> 3.0)
     - Apptimize (~> 2.16)
   - Specta (1.0.5)
@@ -26,7 +26,7 @@ SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   OCHamcrest: 218dc4022a5e928a275771da70c5dbea9f859287
   OCMockito: 9eee3c61e42f7cb8aa015d66f8cc16849701d973
-  Segment-Apptimize: 0f43245426874ce931d9cbdbcd840ea7201d28c7
+  Segment-Apptimize: c05389a5abd515b72615fced6d15f0fca1bf845a
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 PODFILE CHECKSUM: 9b0723bf45b72b96810b56a7b3abb5a6194a30dd
