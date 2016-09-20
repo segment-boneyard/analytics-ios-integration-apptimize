@@ -18,12 +18,13 @@ static NSString *const VIEWED_TAG_FORMAT = @"Viewed %@ screen";
 
         NSString *appKey = [self.settings objectForKey:APPKEY_SEG_KEY];
         if( appKey == nil ) {
+            NSLog( @"no appKey found in settings, thus Apptimize integration will not be active" );
             return nil;
         }
         NSDictionary *options = [self buildApptimizeOptions];
         void(^start_block)(void) = ^{
             [_apptimizeClass startApptimizeWithApplicationKey:appKey options:options];
-            [self initExperimentTracking];
+            [self setupExperimentTracking];
         };
         static dispatch_once_t segPredicate;
         dispatch_once( &segPredicate, ^{
@@ -39,12 +40,12 @@ static NSString *const VIEWED_TAG_FORMAT = @"Viewed %@ screen";
 
 - (nonnull NSDictionary*)buildApptimizeOptions
 {
-    NSMutableDictionary *o = [NSMutableDictionary new];
-    [o setObject:[NSNumber numberWithBool:FALSE] forKey:ApptimizeEnableThirdPartyEventImportingOption];
-    return o;
+    NSMutableDictionary *options = [NSMutableDictionary new];
+    [options setObject:[NSNumber numberWithBool:FALSE] forKey:ApptimizeEnableThirdPartyEventImportingOption];
+    return options;
 }
 
-- (void) initExperimentTracking
+- (void) setupExperimentTracking
 {
     BOOL enable = ((NSNumber*)[self.settings objectForKey:LISTEN_SEG_KEY]).boolValue;
     if( enable ) {
