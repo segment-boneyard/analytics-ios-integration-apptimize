@@ -2,6 +2,11 @@ Change Log
 ==========
 
 =======
+Version 0.2.1 *(20 September, 2016)*
+------------------------------------
+
+ * Fix: Screens. WYSIWYG. Experiment tracking.
+
 Version 0.2.0 *(1 September, 2016)*
 ------------------------------------
 
