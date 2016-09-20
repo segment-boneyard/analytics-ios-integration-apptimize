@@ -11,7 +11,6 @@
     static dispatch_once_t once;
     static SEGApptimizeIntegrationFactory *sharedInstance;
     dispatch_once(&once, ^{
-        [Apptimize SEG_ensureLibraryHasBeenInitialized];
         sharedInstance = [[self alloc] init];
     });
     return sharedInstance;

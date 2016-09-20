@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/Segment-Apptimize.svg?style=flat)](http://cocoapods.org/pods/Segment-Apptimize)
 [![License](https://img.shields.io/cocoapods/l/Segment-Apptimize.svg?style=flat)](http://cocoapods.org/pods/Segment-Apptimize)
 
-Apptimize integration for analytics-ios.
+Apptimize integration for [analytics-ios](https://github.com/segmentio/analytics-ios).
 
 ## Installation
 

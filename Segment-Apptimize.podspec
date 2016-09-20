@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Apptimize"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "Apptimize Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
                        This is the Apptimize integration for the iOS library.
                        DESC
 
-  s.homepage         = "http://segment.com/"
+  s.homepage         = "http://apptimize.com"
   s.license          =  { :type => 'MIT' }
-  s.author           = { "Segment" => "friends@segment.com" }
-  s.source           = { :git => "https://github.com/segment-integrations/analytics-ios-integration-apptimize.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/segment'
+  s.author           = { "Apptimize" => "support@apptimize.com" }
+  s.source           = { :git => "https://github.com/Apptimize/analytics-ios-integration-apptimize.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/apptimizeAB'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Segment-Apptimize/Classes/**/*'
 
   s.dependency 'Analytics', '~> 3.0'
-  s.dependency 'Apptimize', '~> 2.16'
+  s.dependency 'Apptimize', '>= 2.16.14'
 end
