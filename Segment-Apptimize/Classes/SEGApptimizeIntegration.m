@@ -103,9 +103,4 @@ static NSString *const VIEWED_TAG_FORMAT = @"Viewed %@ screen";
     [_apptimizeClass SEG_track:screenEvent attributes:payload.properties];
 }
 
-- (void)reset
-{
-    [_apptimizeClass SEG_resetUserData];
-}
-
 @end
