@@ -38,11 +38,6 @@ describe(@"integration", ^{
         [verify(mockApptimize) setUserAttributeString:payload.userId forKey:@"user_id"];
         [verify(mockApptimize) SEG_setUserAttributesFromDictionary:@{}];
     });
-
-    it(@"reset", ^{
-        [integration reset];
-        [verify(mockApptimize) SEG_resetUserData];
-    });
 });
 
 SpecEnd
