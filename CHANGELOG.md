@@ -2,6 +2,11 @@ Change Log
 ==========
 
 =======
+Version 0.2.2 *(20 October, 2016)*
+------------------------------------
+
+ * Fix: Remove reset to prevent guid resetting on logout.
+
 Version 0.2.1 *(20 September, 2016)*
 ------------------------------------
 
