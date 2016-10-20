@@ -7,12 +7,17 @@
 //
 
 #import "SEGAppDelegate.h"
-
+#import "Analytics/SEGAnalytics.h"
+#import "Segment-Apptimize/SEGApptimizeIntegrationFactory.h"
 
 @implementation SEGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:@"[YOUR_SEGMENT_WRITE_KEY]"];
+    [config use:[SEGApptimizeIntegrationFactory instance]];
+    [SEGAnalytics setupWithConfiguration:config];
+    
     // Override point for customization after application launch.
     return YES;
 }
