@@ -34,6 +34,7 @@
 		10640AF349457B2280632CECCCA5FE7C /* SEGScreenPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A622135A3196B5CCFDBDF102224BAE9 /* SEGScreenPayload.m */; };
 		10F91ADF519C0D6C9B8427D053B9AD18 /* MKTMockitoCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC0C64E222E6B03CE092D6609E5587F /* MKTMockitoCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		11CF0C44A36897A963C15B74C2AEC415 /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A28B91D8F390EA83B9E568C4017DB246 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		12E9470B51EAA6FA2024EDB6EB7C5098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		14C609D8F203FD45194E93997EFF744E /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 57BC1222BD92EE1F7C76B0DF70ECBE41 /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		156AF554ABAD24A020FB0CE314FF27CC /* HCTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A64EED72015FE8720A5C38D7B33BAE8 /* HCTestFailureReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1848D66C22F935C5D604DB6644F83521 /* MKTCharReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 98BAD31B44044ECC042728BF8E5C3419 /* MKTCharReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -50,8 +51,8 @@
 		21D2854C08B9335B818E9229AA2F3D5C /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DDA5BF931914C54D642EBE4E3003BA /* SPTSharedExampleGroups.m */; };
 		2239B5E63C5D2C1323D66F489F075C42 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB1B2C11DC9A1FFF81E61E6B5DCF98 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		22A6C4E6C9FD946EE7752A3D49F5CC59 /* HCArgumentCaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A29AE4DD70734D254EC61617EC486689 /* HCArgumentCaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		233BB7C40749D5D38799EC6DC9A23F71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		237FB063FB365119546C7B5006224F3B /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1F24BB2295908861892179542030E3 /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B6165102E031B186D4250503628A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		23B65F81F5F0DC1B3A319DFEDAC90B16 /* HCThrowsException.h in Headers */ = {isa = PBXBuildFile; fileRef = B22E142F97840B25A862BBFAD4F379B6 /* HCThrowsException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2564AF5AC3650A119AA9ADEA31EEF9F0 /* MKTStructArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41044D0687E23C3FFA4B0CD6732D87 /* MKTStructArgumentGetter.m */; };
 		25BBDA674BE9447D354412C79BF4B16C /* SEGIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = F3385BF1297AEDC20D8B7ABAC8623B4A /* SEGIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -95,6 +96,7 @@
 		3E184771907097130827F54ED2060A0B /* MKTThrowsException.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DCF0D2C0B6CA79880129700B590736 /* MKTThrowsException.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3E463E2B6917D9AA08A03BA8A8E74A18 /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = D43C17B1E09AA99994FC4061EF7D3CBB /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EBEF69ECEB3612EE83413BFCC9B3CE4 /* MKT_TPDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FC833AC2F50A61E43025924C04428F87 /* MKT_TPDWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EC33A363F8B3FA93FC74FB218B42E13 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */; };
 		3EC621DB440E8D25ED82D1E4995CBE6E /* HCIsInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3633F2616B585FDF94E36038C5BB97 /* HCIsInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		401CA54ECE32AB7DD48197E736AE3D80 /* MKTReturnValueSetterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CDF397623FBECC80C27FCD8A173B85 /* MKTReturnValueSetterChain.m */; };
 		40F505E69B8595361C2A7528DDA222B6 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E385506738E83696E0783269C9265F5E /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -102,6 +104,7 @@
 		413CB4172B77E825D50E9AEE08D90013 /* HCDescribedAs.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456C37454535511E0A606C6F9C191FA /* HCDescribedAs.m */; };
 		41A934744C9338D3D243F3675D091670 /* HCGenericTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 619E359AE138C737A999E3B30204D383 /* HCGenericTestFailureReporter.m */; };
 		41D47B37FDEA46945606C39C44042D8C /* SEGLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = E8614FC41AD6375D5F16240DCBF771FE /* SEGLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41EFC780B42FB46BA0FAFEC80F216C75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		4231743B6C143BDB4A5FBB032E6D3799 /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF87ED5FDB3665C1DAB766BCFC1ACCC /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		430CE433DB59FE090A8CC6AFCFA43337 /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2256139263E05456C2C59845FA4D78CF /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4372EC9E3B0C14ECCDEA7EDA44ED7FC7 /* MKTNonObjectArgumentMatching.h in Headers */ = {isa = PBXBuildFile; fileRef = F15A156EDDD313FB067EFC408C101C85 /* MKTNonObjectArgumentMatching.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -132,6 +135,7 @@
 		50FA72490531FBBD01569C49B0DB47C1 /* HCIntReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7F2A22C6E949D45562EBC27B61E79D /* HCIntReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		51E40CC297D2FB94230948C8FBC007DD /* HCStringContainsInOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB61FB899EFB18E267C8D2EFA16BBB9 /* HCStringContainsInOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		527A27B3368D26222D7F01A1BD6FB5FB /* MKTExactTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F924715E9338A5C32FD05666D9F840 /* MKTExactTimes.m */; };
+		527CF91F0E55F2F704587C88250F0848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		539C2C0907CA46CC4DE78E19B1AFFA8E /* SEGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = BF68D83FA14F1A4CC26D5588E19491FB /* SEGBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53BFE783C894F2B963ABD0AF9FD42FF7 /* MKTThrowsException.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEAE1926E9FD8C4778DFE379306FCD5 /* MKTThrowsException.m */; };
 		540DB434028188AD970BE9885BAF48B4 /* MKTIntReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7883EADC05EE22762306F91F20DB5FA6 /* MKTIntReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -175,6 +179,7 @@
 		6DC7C0394E0CDFBF2AAB1FB70A72B832 /* MKTClassArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5192D89D85523E086A557A2DB2DA0C38 /* MKTClassArgumentGetter.m */; };
 		6E4D1E4B8EE28C1A928E457FADB57BBD /* MKTDynamicProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CD208CEE14487809C79F2DCC97EA1A /* MKTDynamicProperties.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6EB2498C2AFB1DF8555CB7C1EF89CA5C /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE682EDEB25E52617E5E282EC261385 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECC8FEDF10E646E92936130F640A996 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		6ED7CF5D0455B30BB038D2F2D5C4889F /* HCIsEmptyCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7FD4AB1E470E24019D3585E8F48EF2 /* HCIsEmptyCollection.m */; };
 		6FD15F1B3B0C2E0E1E3F7576FEB0A023 /* HCIsEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB68450E3CF6B9BE592F42337638A6F /* HCIsEqual.m */; };
 		70545E4EA86C6E593A2A9F6731DA8F6D /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF166CA4A50D7391E916D5B18F3302B /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -202,7 +207,6 @@
 		7AC91F55DAAA2F0223A97BEFF8BCAF68 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AF63809B33764F16B649673854138E /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7ACFA638C2C2E8ED7D1057458CD56643 /* HCIsEqualIgnoringCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5684D5E2BD31C18E2C0CD8F248F46565 /* HCIsEqualIgnoringCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B3134CFD6268014C44ADAAACD65719B /* MKTObjectArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0909A539897634417F57D68EB42F50 /* MKTObjectArgumentGetter.m */; };
-		7C8990F70B3DFACC64C905887ECE29A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		7D11A19F5096F99287B991B2C9EBEF78 /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B13CBFB9D29A87889A1F774F260113 /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D1DF0399A43B784E4A2C2171F3610E7 /* MKTAtLeastTimes.h in Headers */ = {isa = PBXBuildFile; fileRef = 251F12351BFAE3B5A51A3ED845067613 /* MKTAtLeastTimes.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7E2A770662A67CF836D4F11921F3D96E /* HCIsDictionaryContainingEntries.m in Sources */ = {isa = PBXBuildFile; fileRef = EE23E9618D42F178881263B2EEE5BF30 /* HCIsDictionaryContainingEntries.m */; };
@@ -231,7 +235,6 @@
 		8964BF168AFCBB1ABDFA2D76138EAA65 /* MKTLongArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0114C493D29417B822CA8DF12C745940 /* MKTLongArgumentGetter.m */; };
 		8AA170B8C8CBA982BF6A00400A6C3277 /* MKTLongLongReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 05058D30F7B4F63B2D5026DA0A02B188 /* MKTLongLongReturnSetter.m */; };
 		8B07A841307137B4CDB75DDFB8F626FA /* MKTOngoingStubbing.h in Headers */ = {isa = PBXBuildFile; fileRef = 221F421D7659124E842101111B6BF958 /* MKTOngoingStubbing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B0D5E0C9E11C496F9379BE5CF809184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		8B1B60B7C24DCFAC0081FE5432C10942 /* SEGSegmentIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E82E9D213B40DE1FAF0D28D70AB56C97 /* SEGSegmentIntegrationFactory.m */; };
 		8B504845BBBB2A69C34EA4DA60E51E8C /* MKTStubbedInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9451CCFABE0ABF5EC0BA66D0BB2659 /* MKTStubbedInvocationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8B6B493F5BF2FCBD8DA45D4B0BEA34D5 /* HCIsTrueFalse.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D13B87C80ACB6F2E720B076DE48C47 /* HCIsTrueFalse.m */; };
@@ -291,6 +294,7 @@
 		A8490A46CB5206BCA5F90FCFBA2D731E /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = DA070A8F13AB7106BDDC5950D7233603 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A85210B37AD5860850893AD342C2E3D6 /* HCCollect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C18E31ED46DE007E7BA93CE94CA92F7 /* HCCollect.m */; };
 		A853F7145586771925CE69828D84C16B /* HCDoubleReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEE8AF77201BF80E3F7A3A856D3A033 /* HCDoubleReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A8D82CCB2085AE697CEC176A93069A5D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */; };
 		A8F4EF607D5689D24206BFC735CA20D9 /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF94D8CBDBB06A08D35FB0858254851 /* SPTTestSuite.m */; };
 		A9010DA3F16FC22BFC6EA21EC7FF1DBB /* HCFloatReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = E96A4ED6AED5EE815051F90166178130 /* HCFloatReturnGetter.m */; };
 		AA7B402D31D86AE5E3DD083408311FF1 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B06FA9F8A344BE0342997D054F9CAF /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -302,7 +306,6 @@
 		ADD4BA0F8F050A6E937AF9F209DAD29B /* HCCharReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B7D3B1BAACFFBE4F6551C3A506ACE9 /* HCCharReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		ADE412D38632E2FCD47F179124E96A6C /* HCObjectReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9CC7AC69AD994FB75C01C5364FE0E /* HCObjectReturnGetter.m */; };
 		AE88C00733956BCE963CAA9F618D2643 /* MKTReturnValueSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A27D019F6FF969294043AFB337B0E78 /* MKTReturnValueSetter.m */; };
-		AF5474485C7AC40BDFCFA04FBBA6C19C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		B09EF0FD07655A036EF25A09252EC9A9 /* SEGIdentifyPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 895D20A42B99B8D8F23B33E6E3C3589E /* SEGIdentifyPayload.m */; };
 		B309BC0D714443A4A815F45FECB8AAB1 /* SEGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 856E861990A759BBBA3B6BCC8BDED375 /* SEGLocation.m */; };
 		B33234F432A72D5E8B65694AE937B78F /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F45CDB4E763B7B70058891CC37FBD9A /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -318,6 +321,7 @@
 		B87904014217EC9142A60100E6D363E3 /* SEGPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7E8A6A46929B90FC6C7198FA9D3459 /* SEGPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B887581440A8EF80E69D365FD7AB905D /* HCGenericTestFailureReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F16982D9DF333F637CD5F6A8608A679 /* HCGenericTestFailureReporter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B8F0782E838E1C46A05FFC5CED43D7BF /* HCInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8041F1A18B946B3E205C8B0A6D96A4 /* HCInvocationMatcher.m */; };
+		B98865467F6DA980701B2448D161E4D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		BAEB8E225381F7B547EB927C11D9E3C7 /* HCOrderingComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = D03FF9AF58EA857F4AF09695796D1CA3 /* HCOrderingComparison.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB24FE145E98820750E306DE6AF5CDCD /* HCHasDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E86656D148BB53229D61951D40FD4F /* HCHasDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC021CC978BE68B2BE0A690878FB54AF /* SEGIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0920A95B1D8CDBABFB00CE7152C26C /* SEGIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -325,9 +329,11 @@
 		BD6957948B29B6DBA73E3CE5AA5AF3B7 /* HCAssertThat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC7AB3963960E35386C0C4E4CDFABFA /* HCAssertThat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDA9CBC0DEE20BF64442D49B56C6A717 /* SEGApptimizeIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 911450BB3CE9EE768C187AD7A4A48360 /* SEGApptimizeIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDDE3C6E1A33A0179D116400D16B9E3D /* SEGApptimizeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7B887A387C86FE75719083617D0CD7 /* SEGApptimizeIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE1951C9525215AF0FE3BB3C3B716A74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		BE37B1CF00206F60BB1FC882210A9760 /* MKTBoolReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1B1908F7E1EF1FF6FB8DD3F69B542 /* MKTBoolReturnSetter.m */; };
 		BFB913C67B61B7C1D46A589E3359C23A /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = C4ABA867312708B0131A38C98166CCFA /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C033180AFB7AD111A87AE8C0B17B6FCB /* HCStringEndsWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B921D3FDAD3D775404A0A474D4D4A94 /* HCStringEndsWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C05EBFECDD8067EFB4D126B0210A2B7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		C0ACE22E4F6421FD1300C4B49F051A25 /* MKTAtMostTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB59EBBB99EC1E7987F7A58DB486EF /* MKTAtMostTimes.m */; };
 		C14D57A719503A524158AD4E850FF8EA /* HCStringStartsWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CACCDA95B8BA47C74E6FDD622D834B /* HCStringStartsWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C183BCFC4A04B0C1AA94B0CE3555B3F3 /* MKTDoubleArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0775170C1763473434BDE4BEE9224807 /* MKTDoubleArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -359,7 +365,6 @@
 		CF05D454CABC2B88152C2D515B2950C8 /* MKTClassReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B952F70A5BDEB5D3F06036356E6B30E /* MKTClassReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CF2E66415B0204E710F7FBD7AA1F847D /* HCIsDictionaryContainingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2AA038297DD145944070E49612908 /* HCIsDictionaryContainingKey.m */; };
 		CF95446EA555B49150EA7270096D78B2 /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAE902CCC24764D8F9E0CD287C7FAAB /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CFA86E681C59EDF36E7D76365993CB8A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */; };
 		D0A4901B21C743E5E59A0EC508433D0E /* HCIsNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8198C1C052CED65E7AA96653BEB067 /* HCIsNil.m */; };
 		D21CC07C38A44CFD6289E0021B26353B /* MKTClassReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3558A979DC571C998AB72FA40675BF4C /* MKTClassReturnSetter.m */; };
 		D2569914450D23204868148D34958FF6 /* HCDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 33768FFF6A0CB245319833861B20957C /* HCDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -400,7 +405,6 @@
 		E56760178C6DD297713F0907FD72DA8E /* MKTCharArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 47041BE663DB037E50AA725ABD990676 /* MKTCharArgumentGetter.m */; };
 		E58D0092DA497B3170F09C0063A65ECA /* MKTInvocationContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA1F1B957CD3BEE14A3E6BB45ED70B3 /* MKTInvocationContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E617E37B8DE4B930EC91E78E7B804A9C /* SEGAliasPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = 12202EB8EC7F1A67C34D7C7E1A3471D6 /* SEGAliasPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6C5D77EBBCF4AE069CEF1BA77F275C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		E6FE89D645FD4E2B9065D964A8D64576 /* MKTTestLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FDEC7E6E8E31CE803C8E2077FAC648 /* MKTTestLocation.m */; };
 		E80177CC079C1AF6ABD2139BB3E765A2 /* MKTProtocolMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BC18278DEF0116B554B110BDE4FA5B /* MKTProtocolMock.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E867CBF850D20C314BF4BD790432455D /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCA2A7A7B7DB9098147A423D0F698F5 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -430,16 +434,13 @@
 		F232C0DA86F3C0D26E6DFACF67A0F3C5 /* HCAnyOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE71C923072708779BB59F772ED73A /* HCAnyOf.m */; };
 		F280BEB32C116B6249D42E50A697B04B /* SEGSegmentIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C58C8E530D8D5E4A9B3D6FB67249EF /* SEGSegmentIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F34DC12C7F7D3BD1C91290DE502689EB /* MKTUnsignedLongLongReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCD5BC4FC3D289ADADA6784F27EC196 /* MKTUnsignedLongLongReturnSetter.m */; };
-		F415F451C67C56BD2821DFDC2802FE6C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */; };
 		F426C14C9745E04EF80106EC07E3C3FF /* SEGApptimizeIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 201ECD09A9AC38DEF075D92FFDFADCCF /* SEGApptimizeIntegrationFactory.m */; };
 		F42B37581D0A5880FD5DFE69930FB51C /* HCHasProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 59BF80CC79DFEA18AA4376FFA3F0BF85 /* HCHasProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4CA468B5A9F8FF2A4DB8B236A8E71BF /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A161D2BDB9137C0F2DFB3DE3021F76 /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F53BF959F86BE5B266F10FF777532A86 /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 794A4051082A1E44059F95B279DA33C5 /* SPTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5AB640F9004E105785E61A94A4CEC93 /* MKTFloatReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = F43220EFB94FE8625B667AFB5569435E /* MKTFloatReturnSetter.m */; };
 		F5C322CDE5B4A7AD2BF9124EF5D85051 /* MKTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DDEB1032688593CCE74B3B4F6B67D0 /* MKTLocation.m */; };
-		F5D17CCBF7C6D3260FC9B0F4699D27DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		F6A5E9881D67168D9B9BFA5FCD834596 /* SEGGroupPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = C815DFA947B9CF2D0BD7517757773151 /* SEGGroupPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6F6E07E9AC248F858867D970247563B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		F7E9F83DD82DC7780F45882A89CB8EA2 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = AA721056324CC869C7ECE1A8FC9C42A8 /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F86141D624896A93B63D89A4BEB25797 /* MKTSelectorArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 381DD9BCFFF6A769543767D09B949AB3 /* MKTSelectorArgumentGetter.m */; };
 		F90A1D8B9DD11D6027982728AC954223 /* HCRequireNonNilObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9C32B04794794B407766B7BAFDA9A2 /* HCRequireNonNilObject.m */; };
@@ -455,7 +456,6 @@
 		FD7D22121816BD5C77537936838A9F20 /* MKTUnsignedLongArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = C83825A554C2286D3E503CD5B72CD803 /* MKTUnsignedLongArgumentGetter.m */; };
 		FDF72740DBC37AFACFED73ED42282383 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAD2F825CE6AFDE70EF69D3401FFBF /* Expecta-dummy.m */; };
 		FECDEAA33F735DC69C4B7332277844BC /* HCIsEqualToNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 85340353ECEB484C78E44FFC4AAEFB82 /* HCIsEqualToNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF1C81D0407C9424218F30B63BC09DC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		FF9C18A869161129826073266BA06C8C /* HCIsTypeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FAB2BA0BF7C1BF34DEAA0AAC70F27BB /* HCIsTypeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFF839E790B8F67BCADFD8A7780A0620 /* HCIsSame.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4400B97CF9208C30FF3561B9164979 /* HCIsSame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -610,6 +610,7 @@
 		3116FA8F5279BE46D74900B819F899FD /* MKTObjectAndProtocolMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTObjectAndProtocolMock.m; path = Source/OCMockito/Mocking/MKTObjectAndProtocolMock.m; sourceTree = "<group>"; };
 		31B876D87023C0560D38243697F6C3B4 /* MKTAnswer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAnswer.h; path = Source/OCMockito/Stubbing/MKTAnswer.h; sourceTree = "<group>"; };
 		3253B5EC4D8AC5D8EDB2BE1363C67916 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
+		32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33768FFF6A0CB245319833861B20957C /* HCDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDescription.h; path = Source/Core/HCDescription.h; sourceTree = "<group>"; };
 		33B10039709F7F2426A54ACC3374676A /* HCStringContains.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringContains.h; path = Source/Library/Text/HCStringContains.h; sourceTree = "<group>"; };
 		3558A979DC571C998AB72FA40675BF4C /* MKTClassReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTClassReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTClassReturnSetter.m; sourceTree = "<group>"; };
@@ -839,7 +840,6 @@
 		AA721056324CC869C7ECE1A8FC9C42A8 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		AA8CCDAF7B0CA7A14A12C3004C5BFF90 /* SEGGroupPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGGroupPayload.m; path = Pod/Classes/Integrations/SEGGroupPayload.m; sourceTree = "<group>"; };
 		AAA93DCDC3C3258359564AFC11C014EC /* HCLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCLongReturnGetter.m; sourceTree = "<group>"; };
-		AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		AB773700C5642D08F2CFA62593E6EBB8 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		ABCD5BC4FC3D289ADADA6784F27EC196 /* MKTUnsignedLongLongReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedLongLongReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedLongLongReturnSetter.m; sourceTree = "<group>"; };
 		AC5A06DFB84C8EC124D1C5757D620FC9 /* HCBoolReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBoolReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCBoolReturnGetter.h; sourceTree = "<group>"; };
@@ -849,6 +849,7 @@
 		AE8377C0A1E5CCD4B3B80028BCBA2B30 /* OCMockito-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMockito-dummy.m"; sourceTree = "<group>"; };
 		AE9417290CC812A09AEED7B1E56CDFD3 /* HCIsDictionaryContaining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsDictionaryContaining.m; path = Source/Library/Collection/HCIsDictionaryContaining.m; sourceTree = "<group>"; };
 		AEAE902CCC24764D8F9E0CD287C7FAAB /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
+		AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AF35E9C5600E15FF47E45B480884D3E9 /* MKTPrinter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTPrinter.m; path = Source/OCMockito/Invocation/MKTPrinter.m; sourceTree = "<group>"; };
 		B05F13E5FEB4F0E25D081B127C4442B4 /* MKTBaseMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTBaseMockObject.h; path = Source/OCMockito/Mocking/MKTBaseMockObject.h; sourceTree = "<group>"; };
 		B0E0F14B941776C1DF637456D16DF875 /* MKTAtMostNumberOfInvocationsChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAtMostNumberOfInvocationsChecker.h; path = Source/OCMockito/Verifying/MKTAtMostNumberOfInvocationsChecker.h; sourceTree = "<group>"; };
@@ -869,7 +870,6 @@
 		B776D1744E5193994F5C0EF7DD1BC0EC /* MKTUnsignedCharReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedCharReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedCharReturnSetter.h; sourceTree = "<group>"; };
 		B7B2A9473012401222BA01B368C79EB3 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
 		B7B966145BBC0527AD4086737508C6D8 /* MKTArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTArgumentGetter.h; sourceTree = "<group>"; };
-		B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B998E08BDEF61F54907EBE65469758B6 /* HCClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCClassMatcher.h; path = Source/Library/Object/HCClassMatcher.h; sourceTree = "<group>"; };
 		B9A1CF742509208CD80BA376EA029899 /* Pods-Segment-Apptimize_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Segment-Apptimize_Example-resources.sh"; sourceTree = "<group>"; };
 		BA6E4554BC6ED3F6F3271CC1AAF07FC3 /* MKTUnsignedCharArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedCharArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedCharArgumentGetter.m; sourceTree = "<group>"; };
@@ -1009,8 +1009,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8990F70B3DFACC64C905887ECE29A7 /* Foundation.framework in Frameworks */,
-				F415F451C67C56BD2821DFDC2802FE6C /* XCTest.framework in Frameworks */,
+				527CF91F0E55F2F704587C88250F0848 /* Foundation.framework in Frameworks */,
+				3EC33A363F8B3FA93FC74FB218B42E13 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1018,7 +1018,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF5474485C7AC40BDFCFA04FBBA6C19C /* Foundation.framework in Frameworks */,
+				6ECC8FEDF10E646E92936130F640A996 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1026,7 +1026,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0D5E0C9E11C496F9379BE5CF809184 /* Foundation.framework in Frameworks */,
+				23B6165102E031B186D4250503628A15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1034,7 +1034,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6C5D77EBBCF4AE069CEF1BA77F275C3 /* Foundation.framework in Frameworks */,
+				C05EBFECDD8067EFB4D126B0210A2B7D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1042,7 +1042,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6F6E07E9AC248F858867D970247563B /* Foundation.framework in Frameworks */,
+				12E9470B51EAA6FA2024EDB6EB7C5098 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1050,7 +1050,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				233BB7C40749D5D38799EC6DC9A23F71 /* Foundation.framework in Frameworks */,
+				41EFC780B42FB46BA0FAFEC80F216C75 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1058,8 +1058,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D17CCBF7C6D3260FC9B0F4699D27DC /* Foundation.framework in Frameworks */,
-				CFA86E681C59EDF36E7D76365993CB8A /* XCTest.framework in Frameworks */,
+				BE1951C9525215AF0FE3BB3C3B716A74 /* Foundation.framework in Frameworks */,
+				A8D82CCB2085AE697CEC176A93069A5D /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1067,7 +1067,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF1C81D0407C9424218F30B63BC09DC1 /* Foundation.framework in Frameworks */,
+				B98865467F6DA980701B2448D161E4D2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1175,7 +1175,7 @@
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D24B2EA016AE4FABDB5AF17F3FD9C222 /* iOS */,
+				9D9CFF97A2D41D7CB20A427D5386C7A6 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1252,6 +1252,15 @@
 			);
 			name = "Pods-Segment-Apptimize_Tests";
 			path = "Target Support Files/Pods-Segment-Apptimize_Tests";
+			sourceTree = "<group>";
+		};
+		9D9CFF97A2D41D7CB20A427D5386C7A6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */,
+				AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		A40EEDC273910A618172F2CCF0A7EA81 /* Expecta */ = {
@@ -1595,15 +1604,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/OCMockito";
-			sourceTree = "<group>";
-		};
-		D24B2EA016AE4FABDB5AF17F3FD9C222 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */,
-				B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		EA554E9846579DF0E77F4F8078577EB6 /* OCMockito */ = {
@@ -2538,112 +2538,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06F5A2A2AEA9F976DA6513A320C94DAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC225A753BC2A94B12EF8FB7E3792E31 /* OCMockito.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OCMockito/OCMockito-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		15AD32BB75E3C487325E09A6AF7ED00C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE9FAD619C6796F4FB83526CB6997E6A /* Pods-Segment-Apptimize_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1C4E4899BE01820151368B07EB14F4A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07DA89ED3747F03869673A17ECE9D516 /* Expecta.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Expecta/Expecta-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1C7B217910148DA58E7BF26C380610E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82D700CAF9AABBF11256B0ABA81F1356 /* Pods-Segment-Apptimize_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		356C86DBE9E4650144837A2DBB1357FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F4955781EA996ECAEA86CD1617B243B /* OCHamcrest.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OCHamcrest/OCHamcrest-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2661,6 +2556,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2680,58 +2576,19 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		62D57DD9EC6D31DC5B37C9BD1491DDED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC225A753BC2A94B12EF8FB7E3792E31 /* OCMockito.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OCMockito/OCMockito-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		70D76306FC6C28875525AD14126FF140 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D5E877390FF3F9C0C466FC0F11F153C /* Analytics.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		71770E9E2C257FCB45546BC246929D7E /* Debug */ = {
+		05B5C51725AC5D6F83947B4E53ED48AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F4955781EA996ECAEA86CD1617B243B /* OCHamcrest.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2748,16 +2605,41 @@
 			};
 			name = Debug;
 		};
-		8E38ECED90DD904FBEF7B9FB811DE702 /* Release */ = {
+		0A8EDCEF5C5E374DF075A4063594DC3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971EA65D639084FDD4DFED873F368222 /* Segment-Apptimize.xcconfig */;
+			baseConfigurationReference = CAE096D260116C3871268D4B6867EC24 /* Pods-Segment-Apptimize_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Segment-Apptimize/Segment-Apptimize-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		17172FCB506FF940FA19A85DE96303A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC225A753BC2A94B12EF8FB7E3792E31 /* OCMockito.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCMockito/OCMockito-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -2769,11 +2651,36 @@
 			};
 			name = Release;
 		};
-		94EEA812C639CE6DBD204845535A126E /* Release */ = {
+		2BBFF17FA8C61D1A4ADE87281970E360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971EA65D639084FDD4DFED873F368222 /* Segment-Apptimize.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Segment-Apptimize/Segment-Apptimize-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3889C086C5A9C6FDA6A66A4A1C34A12F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2BE724EA8D898C09384A8DC34358464E /* Specta.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2790,7 +2697,7 @@
 			};
 			name = Release;
 		};
-		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2808,6 +2715,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2822,42 +2730,47 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B90668AC49861C86DF6C177512CCB398 /* Debug */ = {
+		5A65ECAEA8EC86702B64E6F4BD342709 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971EA65D639084FDD4DFED873F368222 /* Segment-Apptimize.xcconfig */;
+			baseConfigurationReference = 82D700CAF9AABBF11256B0ABA81F1356 /* Pods-Segment-Apptimize_Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Segment-Apptimize/Segment-Apptimize-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		C133E96F179A036EC613DCD5F635857F /* Release */ = {
+		5EF98BB79CD51E74A2B69E566507C243 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D5E877390FF3F9C0C466FC0F11F153C /* Analytics.xcconfig */;
+			baseConfigurationReference = 971EA65D639084FDD4DFED873F368222 /* Segment-Apptimize.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Segment-Apptimize/Segment-Apptimize-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -2870,11 +2783,36 @@
 			};
 			name = Release;
 		};
-		CA8F90BCC30F638BDCE62AA4C42000C8 /* Debug */ = {
+		60C8C427F0C8F3B849DB3574386BEEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC225A753BC2A94B12EF8FB7E3792E31 /* OCMockito.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCMockito/OCMockito-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		76CAE29CA218479CE9B7DDF9B580D352 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2BE724EA8D898C09384A8DC34358464E /* Specta.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2891,32 +2829,36 @@
 			};
 			name = Debug;
 		};
-		CED945A12111E10AFCD2FC29DF293B3B /* Release */ = {
+		8595FEA70B5476A7AA62553FD2623B38 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAE096D260116C3871268D4B6867EC24 /* Pods-Segment-Apptimize_Tests.release.xcconfig */;
+			baseConfigurationReference = 0F4955781EA996ECAEA86CD1617B243B /* OCHamcrest.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/OCHamcrest/OCHamcrest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		E3A290E671D2B0643CF6F83452238A59 /* Debug */ = {
+		963EAC7D23E9E12AB914243F45B82013 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC2B5F07BD9C948222732CE15A027EE7 /* Pods-Segment-Apptimize_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2933,16 +2875,110 @@
 			};
 			name = Debug;
 		};
-		FBCEC5C8B899A450BBC3A217E518522C /* Debug */ = {
+		9E95C13E1781D0BE6CE8B0C6DD0B8F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5E877390FF3F9C0C466FC0F11F153C /* Analytics.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A23E92C3731FFC24BBB5E9910BCF0F25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07DA89ED3747F03869673A17ECE9D516 /* Expecta.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Expecta/Expecta-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C9A4BC0D2562373757CABDEC986646B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DA89ED3747F03869673A17ECE9D516 /* Expecta.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Expecta/Expecta-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D4E9BD07B4800A753C9F22C99C7B3163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9FAD619C6796F4FB83526CB6997E6A /* Pods-Segment-Apptimize_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D88B24BB5C10CB5AB77B863A960CFE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5E877390FF3F9C0C466FC0F11F153C /* Analytics.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Analytics/Analytics-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -2960,8 +2996,8 @@
 		211E7C6D1E743361BF1E8C3505BA31E7 /* Build configuration list for PBXNativeTarget "OCMockito" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62D57DD9EC6D31DC5B37C9BD1491DDED /* Debug */,
-				06F5A2A2AEA9F976DA6513A320C94DAB /* Release */,
+				60C8C427F0C8F3B849DB3574386BEEEE /* Debug */,
+				17172FCB506FF940FA19A85DE96303A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2969,8 +3005,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47BEF9D903506B003EA5C2B249729489 /* Debug */,
-				AAF678CED40D3499169D10F63CA0719E /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2978,8 +3014,8 @@
 		57205495CF13B4EE93B13B7B0E3A1BD2 /* Build configuration list for PBXNativeTarget "Expecta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBCEC5C8B899A450BBC3A217E518522C /* Debug */,
-				1C4E4899BE01820151368B07EB14F4A0 /* Release */,
+				A23E92C3731FFC24BBB5E9910BCF0F25 /* Debug */,
+				C9A4BC0D2562373757CABDEC986646B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2987,8 +3023,8 @@
 		64230CAEC785F2F50803837A073F7FB2 /* Build configuration list for PBXNativeTarget "Pods-Segment-Apptimize_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C7B217910148DA58E7BF26C380610E4 /* Debug */,
-				15AD32BB75E3C487325E09A6AF7ED00C /* Release */,
+				5A65ECAEA8EC86702B64E6F4BD342709 /* Debug */,
+				D4E9BD07B4800A753C9F22C99C7B3163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2996,8 +3032,8 @@
 		95D63A66C1F37803961B8BCE3664AD7A /* Build configuration list for PBXNativeTarget "Specta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA8F90BCC30F638BDCE62AA4C42000C8 /* Debug */,
-				94EEA812C639CE6DBD204845535A126E /* Release */,
+				76CAE29CA218479CE9B7DDF9B580D352 /* Debug */,
+				3889C086C5A9C6FDA6A66A4A1C34A12F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3005,8 +3041,8 @@
 		A0EAB5F82DD6B9DFE8F0613CF095A331 /* Build configuration list for PBXNativeTarget "Pods-Segment-Apptimize_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3A290E671D2B0643CF6F83452238A59 /* Debug */,
-				CED945A12111E10AFCD2FC29DF293B3B /* Release */,
+				963EAC7D23E9E12AB914243F45B82013 /* Debug */,
+				0A8EDCEF5C5E374DF075A4063594DC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3014,8 +3050,8 @@
 		A72D5BBFC5A6034450DA470496DE1FB8 /* Build configuration list for PBXNativeTarget "OCHamcrest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71770E9E2C257FCB45546BC246929D7E /* Debug */,
-				356C86DBE9E4650144837A2DBB1357FE /* Release */,
+				05B5C51725AC5D6F83947B4E53ED48AA /* Debug */,
+				8595FEA70B5476A7AA62553FD2623B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3023,8 +3059,8 @@
 		D69A20A8681184C1F18D69A2BB644717 /* Build configuration list for PBXNativeTarget "Analytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70D76306FC6C28875525AD14126FF140 /* Debug */,
-				C133E96F179A036EC613DCD5F635857F /* Release */,
+				D88B24BB5C10CB5AB77B863A960CFE73 /* Debug */,
+				9E95C13E1781D0BE6CE8B0C6DD0B8F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3032,8 +3068,8 @@
 		D7DBE5145910CB562F62D7F9B47ADEDA /* Build configuration list for PBXNativeTarget "Segment-Apptimize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B90668AC49861C86DF6C177512CCB398 /* Debug */,
-				8E38ECED90DD904FBEF7B9FB811DE702 /* Release */,
+				2BBFF17FA8C61D1A4ADE87281970E360 /* Debug */,
+				5EF98BB79CD51E74A2B69E566507C243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

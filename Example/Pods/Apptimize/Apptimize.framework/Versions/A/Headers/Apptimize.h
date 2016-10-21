@@ -1,6 +1,6 @@
 //
 //  Apptimize.h
-//  Apptimize 2.16.4
+//  Apptimize 2.16.14
 //
 //  Copyright (c) 2014 Apptimize, Inc. All rights reserved.
 //
@@ -193,7 +193,7 @@ APPTIMIZE_VISIBLE @interface Apptimize : NSObject
 /**
  Set the pilotTargetingID if you want to use the pilot targeting feature available on your Apptimize web dashboard.
  Pilot targeting allows you to select specific pilotTargingID's and groups of pilotTargetingID's
- in the Apptimzie web dashboard for the purposes of targeting experiments and feature flags to specific app/user instances.
+ in the Apptimize web dashboard for the purposes of targeting experiments and feature flags to specific app/user instances.
  Setting this value will cause pilot targeting to be recalculated if applicable.
  */
 + (void)setPilotTargetingID:(NSString *)pilotTargetingID;
@@ -208,12 +208,12 @@ APPTIMIZE_VISIBLE @interface Apptimize : NSObject
 + (NSString *)pilotTargetingID;
 
 /**
- * Returns information about all Apptimize A/B tests that this device is
- * enrolled in. Note that this does NOT include information about Apptimize
- * A/B tests that are running but that this device is not enrolled in.
+ * Returns information about all Apptimize A/B tests and Feature Flags that this device is
+ * enrolled in. Note that this does NOT include information about Apptimize A/B tests and
+ * Feature Flags that are running but that this device is not enrolled in.
  *
- * @return The NSDictionary whose keys are the names of all tests the device is enrolled in, 
- * and whose values are ApptimizeTestInfo objects containing information about the test
+ * @return The NSDictionary whose keys are the names of all tests the device is enrolled in,
+ * and whose values are ApptimizeTestInfo objects containing information about the test.
  * The return will be empty if this device is enrolled in no tests.
  *
  * Returns nil if Apptimize::startApptimizeWithApplicationKey... has not been called.
