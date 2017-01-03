@@ -19,7 +19,10 @@ pod "Segment-Apptimize"
 
 After adding the dependency, you must register the integration with our SDK. To do this, import the Apptimize integration in your AppDelegate:
 
+
+```
 #import <Segment-Apptimize/SEGApptimizeIntegrationFactory.h>
+```
 
 And add the following lines:
 
