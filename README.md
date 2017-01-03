@@ -15,6 +15,24 @@ it, simply add the following line to your `Podfile`:
 pod "Segment-Apptimize"
 ```
 
+## Usage
+
+After adding the dependency, you must register the integration with our SDK. To do this, import the Apptimize integration in your AppDelegate:
+
+#import <Segment-Apptimize/SEGApptimizeIntegrationFactory.h>
+
+And add the following lines:
+
+```
+NSString *const SEGMENT_WRITE_KEY = @" ... ";
+SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:SEGMENT_WRITE_KEY];
+
+[config use:[SEGApptimizeIntegrationFactory instance]];
+
+[SEGAnalytics setupWithConfiguration:config];
+```
+
+
 ## License
 
 ```
