@@ -58,7 +58,7 @@ static NSString *const VIEWED_TAG_FORMAT = @"Viewed %@ screen";
 
 - (void)experimentDidGetViewed:(NSNotification *)notification
 {
-    if (!notification.userInfo[ApptimizeTestFirstRunUserInfoKey]) {
+    if (![notification.userInfo[ApptimizeTestFirstRunUserInfoKey] boolValue]) {
         return;
     }
 
