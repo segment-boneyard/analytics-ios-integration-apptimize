@@ -2,6 +2,11 @@ Change Log
 ==========
 
 =======
+Version 0.2.3 *(06 July, 2017)*
+------------------------------------
+
+ * Fix: Only create participation events for the first time a user participates in an experiment.
+
 Version 0.2.2 *(20 October, 2016)*
 ------------------------------------
 
