@@ -6,14 +6,7 @@
 
 Apptimize integration for analytics-ios.
 
-## Installation
-
-Analytics is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your `Podfile`:
-
-```ruby
-pod "Segment-Apptimize"
-```
+Apptimize now maintains this integration. To see setup instructions and up to date code, please refer to [this repo](https://github.com/Apptimize/analytics-ios-integration-apptimize).
 
 ## License
 
