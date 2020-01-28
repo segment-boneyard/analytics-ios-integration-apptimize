@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Apptimize"
-  s.version          = "0.2.3"
+  s.version          = "0.3.0"
   s.summary          = "Apptimize Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Segment-Apptimize/Classes/**/*'
 
   s.dependency 'Analytics', '~> 3.0'
-  s.dependency 'Apptimize', '>= 2.20.6'
+  s.dependency 'Apptimize', '~> 3.0'
 end

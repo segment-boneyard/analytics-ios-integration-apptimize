@@ -22,9 +22,10 @@ static NSString *const VIEWED_TAG_FORMAT = @"Viewed %@ screen";
             return nil;
         }
         NSDictionary *options = [self buildApptimizeOptions];
+        __weak SEGApptimizeIntegration *weakSelf = self;
         void(^start_block)(void) = ^{
-            [_apptimizeClass startApptimizeWithApplicationKey:appKey options:options];
-            [self setupExperimentTracking];
+            [apptimizeClass startApptimizeWithApplicationKey:appKey options:options];
+            [weakSelf setupExperimentTracking];
         };
         static dispatch_once_t segPredicate;
         dispatch_once( &segPredicate, ^{

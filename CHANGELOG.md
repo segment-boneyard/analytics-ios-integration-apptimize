@@ -1,7 +1,11 @@
 Change Log
 ==========
 
-=======
+Version 0.3.0 *(28 Jan, 2020)*
+------------------------------------
+
+ * Automatically use latest 3.x release of Apptimize
+
 Version 0.2.3 *(06 July, 2017)*
 ------------------------------------
 
