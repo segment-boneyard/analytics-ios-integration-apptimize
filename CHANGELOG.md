@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+Version 0.3.1 *(05 Aug, 2020)*
+------------------------------------
+* Update to latest version of Analytics
+
 Version 0.3.0 *(28 Jan, 2020)*
 ------------------------------------
 
