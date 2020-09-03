@@ -35,6 +35,24 @@ SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWith
 [SEGAnalytics setupWithConfiguration:config];
 ```
 
+If you encounter issues deploying to the AppStore, add the following script
+to the end of your build phases:
+
+```
+echo "Checking for and embedding required swift librarires"
+
+SCAN_PATHS=`find "${TARGET_BUILD_DIR}" -type d -name '*Apptimize*.framework' | sed -E 's|/[^/]+$||' | sed -E 's|^(.*)$|--scan-folder '\''\1'\'' |' | sort -u | tr '\n' ' '`
+
+$TOOLCHAIN_DIR/usr/bin/swift-stdlib-tool \
+   --copy --verbose --sign ${EXPANDED_CODE_SIGN_IDENTITY} \
+   --scan-executable "${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}" \
+   $SCAN_PATHS \
+   --platform ${PLATFORM_NAME} \
+   --toolchain $TOOLCHAIN_DIR \
+   --destination "${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}" \
+   --resource-destination "${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}" \
+   --resource-library libswiftRemoteMirror.dylib
+```
 
 ## License
 
