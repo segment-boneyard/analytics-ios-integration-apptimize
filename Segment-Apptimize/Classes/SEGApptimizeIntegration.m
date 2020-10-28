@@ -52,34 +52,26 @@ static NSString *const VIEWED_TAG_FORMAT = @"Viewed %@ screen";
     if( enable ) {
         [[NSNotificationCenter defaultCenter] addObserver:self
                                                  selector:@selector(experimentDidGetViewed:)
-                                                     name:ApptimizeTestRunNotification
+                                                     name:ApptimizeParticipatedInExperimentNotification
                                                    object:nil];
     }
 }
 
 - (void)experimentDidGetViewed:(NSNotification *)notification
 {
-    if (![notification.userInfo[ApptimizeTestFirstRunUserInfoKey] boolValue]) {
+    if (![notification.userInfo[ApptimizeFirstParticipationKey] boolValue]) {
         return;
     }
 
-    // Apptimize doesn't notify with IDs, so we iterate over all experiments to find the matching one.
-    NSString *name = notification.userInfo[ApptimizeTestNameUserInfoKey];
-    NSString *variant = notification.userInfo[ApptimizeVariantNameUserInfoKey];
-    [[_apptimizeClass testInfo] enumerateKeysAndObjectsUsingBlock:^(id key, id<ApptimizeTestInfo> experiment, BOOL *stop) {
-        BOOL match = [experiment.testName isEqualToString:name] && [experiment.enrolledVariantName isEqualToString:variant];
-        if (!match) {
-            return;
-        }
-        [self.analytics track:@"Experiment Viewed"
-                   properties:@{
-                       @"experimentId" : [experiment testID],
-                       @"experimentName" : [experiment testName],
-                       @"variationId" : [experiment enrolledVariantID],
-                       @"variationName" : [experiment enrolledVariantName]
-                   }];
-        *stop = YES;
-    }];
+    id<ApptimizeTestInfo> testInfo = notification.userInfo[ApptimizeTestInfoKey];
+
+    [self.analytics track:@"Experiment Viewed"
+               properties:@{
+                   @"experimentId" : [testInfo testID],
+                   @"experimentName" : [testInfo testName],
+                   @"variationId" : [testInfo enrolledVariantID],
+                   @"variationName" : [testInfo enrolledVariantName]
+               }];
 }
 
 - (void)identify:(SEGIdentifyPayload *)payload
