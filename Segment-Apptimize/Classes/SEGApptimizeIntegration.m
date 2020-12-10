@@ -6,6 +6,7 @@
 
 static NSString *const APPKEY_SEG_KEY = @"appkey";
 static NSString *const LISTEN_SEG_KEY = @"listen";
+static NSString *const EUCS_SEG_KEY = @"apptimizeEuDataCenter";
 static NSString *const USER_ID_TAG = @"user_id";
 static NSString *const VIEWED_TAG_FORMAT = @"Viewed %@ screen";
 
@@ -43,6 +44,11 @@ static NSString *const VIEWED_TAG_FORMAT = @"Viewed %@ screen";
 {
     NSMutableDictionary *options = [NSMutableDictionary new];
     [options setObject:[NSNumber numberWithBool:FALSE] forKey:ApptimizeEnableThirdPartyEventImportingOption];
+
+    BOOL eucs = ((NSNumber*)[self.settings objectForKey:EUCS_SEG_KEY]).boolValue;
+    if(eucs) {
+      [options setObject:ApptimizeServerRegionEUCS forKey:ApptimizeServerRegionOption];
+    }
     return options;
 }
 
